@@ -1,0 +1,22 @@
+{
+  "name": "starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "node-sass style.scss style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrMorad97/MyProject.git"
+  },
+  "author": "morad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrMorad97/MyProject/issues"
+  },
+  "homepage": "https://github.com/MrMorad97/MyProject#readme",
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
