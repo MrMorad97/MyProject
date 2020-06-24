@@ -47,6 +47,14 @@
         }
     }
 
+    &--green{
+        background-color: $Dark-green;
+        color:$color-white;
+        &::after {
+            background-color: $Dark-green;
+        }
+    }
+
     &--animation-moveUp{
         animation: moveUp .5s ease-out .7s;
         animation-fill-mode: backwards;
